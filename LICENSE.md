@@ -1,7 +1,7 @@
 ### License
 
 All files are licensed under [zlib license](https://opensource.org/licenses/Zlib) unless noted otherwise.
-KiCad Library Files (All .lib .dcm and .pretty files in The PCB-Condenser-Microphone directory) are licensed under [KiCad Libraries License](http://kicad-pcb.org/libraries/license/).
+Some KiCad Library Files (PCB-Condenser-Microphone/<backup>.lib PCB-Condenser-Microphone/<kicad derived file>.dcm and PCB-Condenser-Microphone/<kicad derived file>.bck) are licensed under [KiCad Libraries License] (http://kicad-pcb.org/libraries/license/)
 
 ------------------
 
