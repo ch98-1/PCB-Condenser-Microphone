@@ -1,0 +1,40 @@
+(export (version D)
+  (design
+    (source /Users/corwin/Desktop/PCB-Condenser-Microphone/PCB-Condenser-Microphone-Backplate/PCB-Condenser-Microphone-Backplate.sch)
+    (date "Saturday, March 10, 2018 at 07:02:04 PM")
+    (tool "Eeschema (5.0-dev-4115-gdd04bcb)")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source PCB-Condenser-Microphone-Backplate.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref MK1)
+      (value Microphone_Condenser)
+      (footprint PCB-Condenser-Microphone-Backplate:Condenser-Microphone-Backplate-30mm-Single)
+      (libsource (lib device) (part Microphone_Condenser))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5AA49771)))
+  (libparts
+    (libpart (lib device) (part Microphone_Condenser)
+      (description "Condenser Microspcope")
+      (fields
+        (field (name Reference) MK)
+        (field (name Value) Microphone_Condenser))
+      (pins
+        (pin (num 1) (name -) (type passive))
+        (pin (num 2) (name +) (type passive)))))
+  (libraries
+    (library (logical device)
+      (uri "/Library/Application Support/kicad/library/device.lib")))
+  (nets
+    (net (code 1) (name "Net-(MK1-Pad1)")
+      (node (ref MK1) (pin 1)))
+    (net (code 2) (name "Net-(MK1-Pad2)")
+      (node (ref MK1) (pin 2)))))

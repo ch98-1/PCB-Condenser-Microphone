@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PCB-Condenser-Microphone)(type KiCad)(uri "$(KIPRJMOD)/PCB-Condenser-Microphone.pretty")(options "")(descr ""))
+)

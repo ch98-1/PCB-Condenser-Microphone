@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# device:Microphone_Condenser
+#
+DEF device:Microphone_Condenser MK 0 1 Y N 1 F N
+F0 "MK" -130 50 50 H V R CNN
+F1 "device:Microphone_Condenser" -130 -25 50 H V R CNN
+F2 "" 0 100 50 V I C CNN
+F3 "" 0 100 50 V I C CNN
+DRAW
+C 0 0 100 0 1 10 N
+S 40 -10 -40 -30 0 1 0 F
+S 40 30 -40 10 0 1 0 F
+P 2 0 1 10 -100 100 -100 -100 N
+P 2 0 1 0 0 -30 0 -60 N
+P 2 0 1 0 0 30 0 60 N
+P 2 0 1 0 10 150 30 150 N
+P 2 0 1 0 20 160 20 140 N
+X - 1 0 -200 100 U 50 50 1 1 P
+X + 2 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

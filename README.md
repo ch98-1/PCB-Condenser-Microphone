@@ -4,4 +4,4 @@ Basic Condenser microphone kit that uses the PCB as a backplate
 **License**
 
 All files are licensed under [zlib license](https://opensource.org/licenses/Zlib) unless noted otherwise.
-Some KiCad Library Files (PCB-Condenser-Microphone/<backup>.lib and PCB-Condenser-Microphone/<kicad derived file>.dcm) are licensed under [KiCad Libraries License] (http://kicad-pcb.org/libraries/license/)
+Some KiCad Library Files (PCB-Condenser-Microphone/PCB-Condenser-Microphone-cache.lib PCB-Condenser-Microphone-Backplate/PCB-Condenser-Microphone-Backplate-cache.lib and PCB-Condenser-Microphone-Clamp/PCB-Condenser-Microphone-Clamp-cache.lib) are licensed under [KiCad Libraries License] (http://kicad-pcb.org/libraries/license/)

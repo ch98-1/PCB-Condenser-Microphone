@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Audio-Jack)(type Legacy)(uri /Users/corwin/Desktop/PCB-Condenser-Microphone/PCB-Condenser-Microphone/Audio-Jack.lib)(options "")(descr ""))
+)
