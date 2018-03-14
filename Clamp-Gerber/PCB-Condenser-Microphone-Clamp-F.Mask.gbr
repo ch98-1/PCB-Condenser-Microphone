@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0-dev-4115-gdd04bcb)*
-G04 #@! TF.CreationDate,2018-03-10T19:12:21-08:00*
-G04 #@! TF.ProjectId,PCB-Condenser-Microphone-Clamp,5043422D436F6E64656E7365722D4D69,rev?*
+G04 #@! TF.CreationDate,2018-03-14T15:35:15-07:00*
+G04 #@! TF.ProjectId,PCB-Condenser-Microphone-Clamp,5043422D436F6E64656E7365722D4D69,1*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0-dev-4115-gdd04bcb)) date Saturday, March 10, 2018 at 07:12:21 PM*
+G04 Created by KiCad (PCBNEW (5.0-dev-4115-gdd04bcb)) date Wednesday, March 14, 2018 at 03:35:15 PM*
 %MOMM*%
 %LPD*%
 G01*
