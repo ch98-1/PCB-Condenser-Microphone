@@ -1293,7 +1293,7 @@
   )
   (gr_line (start 118 85) (end 118 46.89) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 134 85) (end 134 46.88) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 125.99 33.6) (end 117.990001 46.879999) (angle -62.16197563) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 125.99 33.6) (end 118 46.89) (angle -62.11124932) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 118 85) (end 134 85) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 120.524999 58.224999) (end 120.8 58.5) (width 0.25) (layer F.Cu) (net 1))
