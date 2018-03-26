@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/corwin/Desktop/PCB-Condenser-Microphone/PCB-Condenser-Microphone/PCB-Condenser-Microphone.sch)
-    (date "Sunday, March 25, 2018 at 11:36:41 PM")
+    (date "Monday, March 26, 2018 at 04:22:17 PM")
     (tool "Eeschema (5.0-dev-4115-gdd04bcb)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -161,7 +161,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5AB8812B))
     (comp (ref R3)
-      (value 300)
+      (value 10K)
       (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
