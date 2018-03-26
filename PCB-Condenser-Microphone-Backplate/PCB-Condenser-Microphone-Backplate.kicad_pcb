@@ -108,7 +108,7 @@
     (add_net "Net-(MK1-Pad1)")
   )
 
-  (module PCB-Condenser-Microphone-Backplate:Condenser-Microphone-Backplate-30mm-Single (layer F.Cu) (tedit 5AA49CF5) (tstamp 5AA4D866)
+  (module PCB-Condenser-Microphone-Backplate:Condenser-Microphone-Backplate-30mm-Single (layer F.Cu) (tedit 5AB8476A) (tstamp 5AA4D866)
     (at 149.5 99.5)
     (path /5AA49771)
     (fp_text reference MK1 (at 0 -21.5) (layer F.SilkS) hide
@@ -149,7 +149,7 @@
       (clearance 1))
     (pad "" np_thru_hole circle (at 15.588457 9 330) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask)
       (clearance 1))
-    (pad 1 thru_hole circle (at 0 0 120) (size 2 2) (drill 1.5) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0 120) (size 30 30) (drill 1.5) (layers *.Cu *.Mask)
       (net 1 "Net-(MK1-Pad1)") (solder_mask_margin 0.001) (clearance 0.05))
     (pad 1 thru_hole circle (at 1.75 -3.031089 60) (size 2 2) (drill 1.5) (layers *.Cu *.Mask)
       (net 1 "Net-(MK1-Pad1)") (solder_mask_margin 0.001) (clearance 0.05))
@@ -263,8 +263,6 @@
       (net 1 "Net-(MK1-Pad1)") (solder_mask_margin 0.001) (clearance 0.05))
     (pad 1 thru_hole circle (at 13.522962 3.623467 345) (size 2 2) (drill 1.5) (layers *.Cu *.Mask)
       (net 1 "Net-(MK1-Pad1)") (solder_mask_margin 0.001) (clearance 0.05))
-    (pad 1 connect circle (at 0 0 120) (size 30 30) (layers F.Cu F.Mask)
-      (net 1 "Net-(MK1-Pad1)"))
   )
 
   (gr_circle (center 149.5 99.5) (end 170 99.5) (layer Edge.Cuts) (width 0.2))
