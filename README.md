@@ -1,5 +1,5 @@
 # PCB-Condenser-Microphone
-Basic Condenser microphone kit that uses the PCB as a backplate
+Basic Condenser microphone kit that uses the PCB as a backplate. It is highly recommended to get the pcb manifactured with ENIG finish for flatness and corrosion resistance.
 
 **License**
 
