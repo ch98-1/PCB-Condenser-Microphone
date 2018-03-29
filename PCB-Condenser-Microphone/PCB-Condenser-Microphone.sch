@@ -28,7 +28,7 @@ $EndComp
 Wire Wire Line
 	9100 3900 9100 4000
 $Comp
-L device:Microphone_Condenser MK1
+L Device:Microphone_Condenser MK1
 U 1 1 5AA49771
 P 1050 5250
 F 0 "MK1" H 1180 5296 50  0000 L CNN
@@ -52,7 +52,7 @@ $EndComp
 Wire Wire Line
 	1050 5550 1050 5450
 $Comp
-L Connector:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5AA797B8
 P 1750 1500
 F 0 "J1" H 1900 1200 50  0000 C CNN
@@ -109,7 +109,7 @@ F 3 "" H 1050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5AA7A003
 P 1050 4600
 F 0 "R9" H 1120 4646 50  0000 L CNN
@@ -124,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 5050 1050 4900
 $Comp
-L device:C C3
+L Device:C C3
 U 1 1 5AA7A11B
 P 2750 4450
 F 0 "C3" V 2498 4450 50  0000 C CNN
@@ -140,7 +140,7 @@ Connection ~ 1050 4900
 Wire Wire Line
 	1050 4900 1050 4750
 $Comp
-L device:C C4
+L Device:C C4
 U 1 1 5AA7A7A1
 P 7950 4100
 F 0 "C4" V 7698 4100 50  0000 C CNN
@@ -153,7 +153,7 @@ $EndComp
 Wire Wire Line
 	8100 4100 8350 4100
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5AA7A941
 P 2850 1450
 F 0 "C2" H 2735 1404 50  0000 R CNN
@@ -168,7 +168,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1600 2850 1600
 $Comp
-L device:LED D1
+L Device:LED D1
 U 1 1 5AA7AE30
 P 3700 1900
 F 0 "D1" V 3738 1783 50  0000 R CNN
@@ -192,7 +192,7 @@ $EndComp
 Wire Wire Line
 	3700 1750 3700 1650
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5AA7B2D1
 P 3700 2300
 F 0 "R1" H 3770 2346 50  0000 L CNN
@@ -239,7 +239,7 @@ Wire Wire Line
 	1950 1600 2600 1600
 Connection ~ 2600 1600
 $Comp
-L linear:LM358 U1
+L Amplifier_Operational:LM358 U1
 U 1 1 5AA829BD
 P 4350 4350
 F 0 "U1" H 4691 4396 50  0000 L CNN
@@ -250,7 +250,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4350 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LM358 U1
+L Amplifier_Operational:LM358 U1
 U 2 1 5AA82BBE
 P 6300 4100
 F 0 "U1" H 6641 4146 50  0000 L CNN
@@ -313,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 4500 6200 4400
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5AA83723
 P 3750 3650
 F 0 "R4" H 3820 3696 50  0000 L CNN
@@ -324,7 +324,7 @@ F 3 "" H 3750 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5AA837B4
 P 3750 4850
 F 0 "R5" H 3820 4896 50  0000 L CNN
@@ -335,7 +335,7 @@ F 3 "" H 3750 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L Device:R R2
 U 1 1 5AA8402D
 P 3250 4450
 F 0 "R2" V 3043 4450 50  0000 C CNN
@@ -383,7 +383,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 3500 3750 3350
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 5AA852B6
 P 4600 5100
 F 0 "R8" V 4393 5100 50  0000 C CNN
@@ -407,7 +407,7 @@ Connection ~ 4000 4450
 Wire Wire Line
 	4000 4450 4050 4450
 $Comp
-L device:POT RV1
+L Device:POT RV1
 U 1 1 5AA8621E
 P 5700 4350
 F 0 "RV1" V 5586 4350 50  0000 C CNN
@@ -434,7 +434,7 @@ Connection ~ 6900 4100
 Wire Wire Line
 	6900 4100 7800 4100
 $Comp
-L device:R R6
+L Device:R R6
 U 1 1 5AA88985
 P 5450 3550
 F 0 "R6" H 5520 3596 50  0000 L CNN
@@ -445,7 +445,7 @@ F 3 "" H 5450 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L Device:R R7
 U 1 1 5AA889D7
 P 5450 4850
 F 0 "R7" H 5520 4896 50  0000 L CNN
@@ -489,7 +489,7 @@ Connection ~ 5450 4000
 Wire Wire Line
 	5450 4000 5450 4700
 $Comp
-L device:C C1
+L Device:C C1
 U 1 1 5AA8CA57
 P 6350 3650
 F 0 "C1" V 6098 3650 50  0000 C CNN
@@ -549,7 +549,7 @@ F 3 "" H 950 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L Device:C C5
 U 1 1 5AB86155
 P 1600 4900
 F 0 "C5" V 1348 4900 50  0000 C CNN
@@ -560,7 +560,7 @@ F 3 "" H 1600 4900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Q_NJFET_DSG Q1
+L Device:Q_NJFET_DSG Q1
 U 1 1 5AB877EE
 P 2500 4900
 F 0 "Q1" H 2691 4946 50  0000 L CNN
@@ -571,7 +571,7 @@ F 3 "" H 2500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 5AB8812B
 P 2100 5200
 F 0 "R10" H 2170 5246 50  0000 L CNN
@@ -602,7 +602,7 @@ Wire Wire Line
 	1750 4900 2100 4900
 Connection ~ 2100 4900
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5AB8CE07
 P 2600 3900
 F 0 "R3" H 2670 3946 50  0000 L CNN

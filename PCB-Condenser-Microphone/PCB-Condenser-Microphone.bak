@@ -109,7 +109,7 @@ F 3 "" H 1050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5AA7A003
 P 1050 4600
 F 0 "R9" H 1120 4646 50  0000 L CNN
@@ -124,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 5050 1050 4900
 $Comp
-L device:C C3
+L Device:C C3
 U 1 1 5AA7A11B
 P 2750 4450
 F 0 "C3" V 2498 4450 50  0000 C CNN
@@ -140,7 +140,7 @@ Connection ~ 1050 4900
 Wire Wire Line
 	1050 4900 1050 4750
 $Comp
-L device:C C4
+L Device:C C4
 U 1 1 5AA7A7A1
 P 7950 4100
 F 0 "C4" V 7698 4100 50  0000 C CNN
@@ -153,7 +153,7 @@ $EndComp
 Wire Wire Line
 	8100 4100 8350 4100
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5AA7A941
 P 2850 1450
 F 0 "C2" H 2735 1404 50  0000 R CNN
@@ -168,7 +168,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1600 2850 1600
 $Comp
-L device:LED D1
+L Device:LED D1
 U 1 1 5AA7AE30
 P 3700 1900
 F 0 "D1" V 3738 1783 50  0000 R CNN
@@ -192,7 +192,7 @@ $EndComp
 Wire Wire Line
 	3700 1750 3700 1650
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5AA7B2D1
 P 3700 2300
 F 0 "R1" H 3770 2346 50  0000 L CNN
@@ -239,7 +239,7 @@ Wire Wire Line
 	1950 1600 2600 1600
 Connection ~ 2600 1600
 $Comp
-L linear:LM358 U1
+L Amplifier_Operational:LM358 U1
 U 1 1 5AA829BD
 P 4350 4350
 F 0 "U1" H 4691 4396 50  0000 L CNN
@@ -250,7 +250,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 4350 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:LM358 U1
+L Amplifier_Operational:LM358 U1
 U 2 1 5AA82BBE
 P 6300 4100
 F 0 "U1" H 6641 4146 50  0000 L CNN
@@ -407,7 +407,7 @@ Connection ~ 4000 4450
 Wire Wire Line
 	4000 4450 4050 4450
 $Comp
-L device:POT RV1
+L Device:POT RV1
 U 1 1 5AA8621E
 P 5700 4350
 F 0 "RV1" V 5586 4350 50  0000 C CNN
@@ -489,7 +489,7 @@ Connection ~ 5450 4000
 Wire Wire Line
 	5450 4000 5450 4700
 $Comp
-L device:C C1
+L Device:C C1
 U 1 1 5AA8CA57
 P 6350 3650
 F 0 "C1" V 6098 3650 50  0000 C CNN
@@ -549,7 +549,7 @@ F 3 "" H 950 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L Device:C C5
 U 1 1 5AB86155
 P 1600 4900
 F 0 "C5" V 1348 4900 50  0000 C CNN
@@ -571,7 +571,7 @@ F 3 "" H 2500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 5AB8812B
 P 2100 5200
 F 0 "R10" H 2170 5246 50  0000 L CNN
@@ -602,11 +602,11 @@ Wire Wire Line
 	1750 4900 2100 4900
 Connection ~ 2100 4900
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5AB8CE07
 P 2600 3900
 F 0 "R3" H 2670 3946 50  0000 L CNN
-F 1 "300" H 2670 3855 50  0000 L CNN
+F 1 "10K" H 2670 3855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" V 2530 3900 50  0001 C CNN
 F 3 "" H 2600 3900 50  0001 C CNN
 	1    2600 3900

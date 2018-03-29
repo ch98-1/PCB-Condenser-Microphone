@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# device:Microphone_Condenser
+# Device:Microphone_Condenser
 #
-DEF device:Microphone_Condenser MK 0 1 Y N 1 F N
+DEF Device:Microphone_Condenser MK 0 1 Y N 1 F N
 F0 "MK" -130 50 50 H V R CNN
-F1 "device:Microphone_Condenser" -130 -25 50 H V R CNN
+F1 "Device:Microphone_Condenser" -130 -25 50 H V R CNN
 F2 "" 0 100 50 V I C CNN
 F3 "" 0 100 50 V I C CNN
 DRAW

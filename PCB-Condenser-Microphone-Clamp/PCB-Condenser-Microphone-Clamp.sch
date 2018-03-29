@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:Microphone_Condenser MK1
+L Device:Microphone_Condenser MK1
 U 1 1 5AA49771
 P 2350 2950
 F 0 "MK1" H 2480 2996 50  0000 L CNN
